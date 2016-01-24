@@ -34,7 +34,7 @@ tl.from('path#prlogo-pee', 2,  {
   scale: 1
 }, "pee+=0.8")
 .staggerFromTo('g#prlogotextgroup path', 1, {
-  x:-20, y:5,
+  x:-0, y:50,
   scale: 0.8,
   ease:Elastic.easeIn.config(1, 0.5)
 }, {
@@ -52,7 +52,7 @@ tl.from('path#prlogo-pee', 2,  {
 
 .staggerTo($('g#prlogotextgroup path').get().reverse(), 1, {
   opacity: 0,
-  x:20, y:0,
+  x:0, y:40,
   scale: 1,
   ease:Elastic.easeIn.config(1, 0.5)
 }, 0.05, "goingBack")
