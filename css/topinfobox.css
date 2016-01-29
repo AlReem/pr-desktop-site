@@ -2,12 +2,6 @@
  * Globals
  */
 /* Links */
-@font-face {
-  font-family: 'NotoSansMalayalam';
-  src: url("../fonts/NotoSansMalayalam.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansMalayalam.woff") format("woff"), url("../fonts/NotoSansMalayalam.ttf") format("truetype"), url("../fonts/NotoSansMalayalam.svg#NotoSansMalayalam") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 
 a,
 a:focus,
@@ -627,7 +621,7 @@ div#onAirToday .widget tr td:nth-child(2) {
 
  .peaceradio-logo svg {
    max-width: 45%;
-   /*height: 200px;*/
+/*    height: 200px; */
  }
 
 
@@ -681,7 +675,7 @@ div#onAirToday .widget tr td:nth-child(2) {
   }
   .peaceradio-logo svg {
     max-width: 45%;
-    height: 200px;
+    height: 50px;
   }
 }
 
@@ -696,6 +690,73 @@ div#onAirToday .widget tr td:nth-child(2) {
 
 g#prlogotextgroup path {
   /*transform: translate(50px);*/
-  opacity: 0;
+  opacity: 1;
   /*transform: scale(1.2);*/
+}
+
+.circle1:before {
+    content: ' \25CF';
+    font-size: 70px;
+/*     position: absolute; */
+/*     position: relative; */
+    display: inline;
+/*   opacity: 0; */
+
+}
+
+.circles-ul {
+/*   display: inline-block; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 75px;
+}
+
+/* .circles-ul li {display:inline;} */
+
+.circle {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+  display: inline;
+  position: absolute;
+}
+
+.dark-green, .dark-green:before {
+  fill: #004431;
+  color: #004431;
+  background: #004431;
+}
+
+.medium-green, .medium-green:before {
+  fill: #00664e;
+  color: #00664e;
+  background: #00664e;
+}
+
+.light-green, .light-green:before {
+  fill: #2e9b83;
+  color: #2e9b83;
+  background: #2e9b83;
+}
+
+.white, .white:before {
+  fill: #fff;
+  transform:scale(1.2,1.2);
+/*   transform:translate(-5px, -5px); */
+  color: #fff;
+  background: #fff;
+}
+.pr-green, .pr-green:before {
+  fill: #00A881;
+  color: #00A881;
+  background: #00A881;
+}
+
+.activity {
+  padding-right: 30px;
+  margin-top: 40px;
+/*   position: absolute; */
 }
